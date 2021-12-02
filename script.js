@@ -79,5 +79,6 @@ btnNew.addEventListener("click", function () {
   current0El.textContent = 0;
   current1El.textContent = 0;
   activePlayer = 0;
+  diceEl.classList.add("hidden");
   player0El.classList.add("player--active");
 });
